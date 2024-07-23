@@ -4,7 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 '''
-Bugs: Can't Export to Excel - Done manually
+Bugs: Doesn't Export to Excel
+      Opta alters data every once in a while. Excel "Country_Codes" Sheet needs to be manually updated to reflect changes if code is to work
 '''
 
 def main():
